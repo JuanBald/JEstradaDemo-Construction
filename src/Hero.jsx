@@ -1,3 +1,4 @@
+import HeroPhoto from './assets/After4.JPG'
 export default function Hero() {
 return(
 <div
@@ -24,7 +25,7 @@ return(
   <div className="w-full overflow-hidden mt-10 lg:mt-0">
 
     <img
-      src="./src/assets/After4.JPG"
+      src={HeroPhoto}
       alt="House"
       className="
         w-full

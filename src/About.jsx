@@ -1,3 +1,4 @@
+import Working from './assets/Working.JPG'
 export default function About() {
   return (
    <div id="about" className="w-full bg-[#f8f8f8] py-10 scroll-mt-24">
@@ -16,7 +17,7 @@ export default function About() {
 </p>
        </div>
     <div className="py-10 lg:px-40 flex justify-center">
-    <img src="./src/assets/Working.JPG" alt="" className="w-[90%] lg:w-200 lg:scale-130 md:scale-100" />
+    <img src={Working} alt="" className="w-[90%] lg:w-200 lg:scale-130 md:scale-100" />
 
     </div>
 

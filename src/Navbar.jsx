@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import logo from './assets/JEstrada-logo.png'
+import njLogo from './assets/NJ-T.png'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +33,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6 text-2xl">
 
             <img
-              src="./src/assets/JEstrada-logo.png"
+              src={logo}
               alt=""
               className="size-16"
             />
@@ -55,7 +57,7 @@ export default function Navbar() {
 
             <div className="w-0.5 h-10 bg-black"></div>
 
-            <img src="./src/assets/NJ-T.png" alt="" className="size-12" />
+            <img src={njLogo} alt="" className="size-12" />
           </div>
 
           {/* HAMBURGER */}
