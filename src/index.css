@@ -1,0 +1,5 @@
+@import "tailwindcss";
+.bebas {
+  font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
