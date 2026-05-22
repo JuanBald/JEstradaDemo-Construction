@@ -13,7 +13,7 @@ return(
       Where Quality Meets Modern Home Transformation
     </span>
 
-    <div className="mt-5 lg:ml-20 tracking-widest z-30">
+    <div className="mt-5 lg:ml-20 tracking-widest z-1">
       <span className="text-white text-3xl md:text-6xl lg:text-7xl font-semibold bg-[#2d2e2e] px-4 py-2 inline-block leading-tight text-center whitespace-nowrap ">
         Home Vision Construction
       </span>
